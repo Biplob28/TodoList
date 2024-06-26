@@ -1,20 +1,19 @@
 {
-  "homepage": "https://Biplob28.github.io/TodoList",
-
+  "homepage": "https://Biplob28/github.io/TodoList",
   "name": "biplob",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy":"gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "preview": "vite preview"
+   
+    
   },
-  
-  
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"

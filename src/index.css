@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(238, 214, 214);
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+.App-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.subapp-container {
+  background-color: rgb(88, 110, 133);
+  width: 31rem;
+  height: 80vh;
+  border-radius: 10px;
+}
+.main-section,
+.list-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main-section h2 {
+  margin: 2rem 0;
+}
+.input-section input {
+  margin-bottom: 2rem;
+}
+
+.input-section input,
+.addbtn {
+  width: 300px;
+  padding: 8px;
+  border: 2px solid aqua;
+}
+.input-section button {
+  background-color: aqua;
+  border-left: 1px solid white;
+  width: 50px;
+  cursor: pointer;
+}
+.list-section ul {
+  width: 368px;
+  padding: 0;
+}
+.list-section ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  border: 2px solid aqua;
+  color: black;
+  background-color: rgb(129, 251, 251);
+  padding: 6px;
+  border-radius: 4px;
+  list-style: none;
+}
+
+.list-section ul button {
+  border-radius: 4px;
+  background-color: white;
+  color: black;
+  border: none;
+}
